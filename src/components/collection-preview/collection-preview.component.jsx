@@ -2,7 +2,6 @@ import React from 'react';
 import CollectionItem from '../collection-item/collection-item.component';
 
 import './collection-preview.styles.scss';
-import { findAllByTitle } from '@testing-library/react';
 
 const CollectionPreview = ({title, id, items}) => (
     <div key = {id} className = 'collection-preview'>
